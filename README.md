@@ -42,7 +42,7 @@ Users should be able to:
 - Vanilla JavaScript
 
 ## Contact
-- Claudia Cantiani - [cclaudia0691@gmaill.com](cclaudia0691@gmail.com)
+- Claudia Cantiani - cclaudia0691@gmaill.com
 - Sito web - [Claudia Cantiani | Front End Developer](https://cla91.github.io/)
 - Frontend Mentor - [@cla91](https://www.frontendmentor.io/profile/cla91)
 - GitHub - [https://github.com/cla91](https://github.com/cla91)
