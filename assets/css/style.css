@@ -1,99 +1,99 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap");
 :root {
-    --bg-color: #E0CBDC;
-    --btn-color: #F74A8A;
-    --font-color: #2F234B;
-    --card-color: #FFF7FA;
+  --bg-color: #e0cbdc;
+  --btn-color: #f74a8a;
+  --font-color: #2f234b;
+  --card-color: #fff7fa;
 }
 
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    font-family: inherit;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: inherit;
 }
 
 html {
-    font-size: 62.5%; /* 10px */
+  font-size: 62.5%; /* 10px */
 }
 
 body {
-    font-family: "Open Sans", sans-serif;
-    font-size: 1.6rem;
-    line-height: 1.5;
-    color: var(--font-color);
-    background-color: var(--bg-color);
-    min-height: 100vh;
-    display: grid;
-    align-items: center;
-    padding-inline: 3rem;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: var(--font-color);
+  background-color: var(--bg-color);
+  min-height: 100vh;
+  display: grid;
+  align-items: center;
+  padding-inline: 3rem;
 }
 
 .counter-container {
-    background-color: var(--card-color);
-    display: grid;
-    grid-template-columns: auto 1fr auto;
-    justify-content: space-between;
-    align-content: space-between;
-    padding: 2rem;
-    border-radius: 1rem;
-    grid-column-gap: 2rem;
-    grid-row-gap: 4rem;
+  background-color: var(--card-color);
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  justify-content: space-between;
+  align-content: space-between;
+  padding: 2rem;
+  border-radius: 1rem;
+  grid-column-gap: 2rem;
+  grid-row-gap: 4rem;
 }
 h1 {
-    grid-column: 1 / -1;
-    text-align: center;
-    font-size: 3rem;
-    font-weight: 700;
+  grid-column: 1 / -1;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
 }
 button {
-    cursor: pointer;
-    font-weight: 700;
-    outline: none;
-    text-align: center;
+  cursor: pointer;
+  font-weight: 700;
+  outline: none;
+  text-align: center;
 }
 .reset {
-    background-color: var(--btn-color);
-    padding-block: 1.5rem;
-    border-radius: 0.5rem;
-    font-size: 2.5rem;
-    color: var(--font-color);
-    grid-column: 1 / -1;
-    border: 3px solid var(--btn-color);
+  background-color: var(--btn-color);
+  padding-block: 1.5rem;
+  border-radius: 0.5rem;
+  font-size: 2.5rem;
+  color: var(--font-color);
+  grid-column: 1 / -1;
+  border: 3px solid var(--btn-color);
 }
 .reset:hover {
-    background-color: var(--card-color);
-    border: 3px solid var(--btn-color);
-    color: var(--btn-color);
-    transition: background-color 0.5s ease;
+  background-color: var(--card-color);
+  border: 3px solid var(--btn-color);
+  color: var(--btn-color);
+  transition: background-color 0.5s ease;
 }
 .operator {
-    background-color: var(--card-color);
-    outline: none;
-    border: none;
-    font-size: 3rem;
-    color: var(--btn-color);
-    min-width: 4rem;
+  background-color: var(--card-color);
+  outline: none;
+  border: none;
+  font-size: 3rem;
+  color: var(--btn-color);
+  min-width: 4rem;
 }
 
 .value {
-    text-align: center;
-    font-size: 3rem;
-    font-weight: 700;
-    align-self: center;
-    word-wrap: break-word;
-    word-break: break-all;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  align-self: center;
+  word-wrap: break-word;
+  word-break: break-all;
 }
 
 @media screen and (min-width: 375px) {
-    h1 {
-        font-size: 4rem;
-    }
-    .counter-container {
-        min-width: 31.4rem;
-        max-width: 40rem;
-        margin: auto;
-    }
+  h1 {
+    font-size: 4rem;
+  }
+  .counter-container {
+    min-width: 31.4rem;
+    max-width: 40rem;
+    margin: auto;
+  }
 }
